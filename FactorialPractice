@@ -1,0 +1,21 @@
+class FactorialPractice {
+
+int fact_value=1;
+int findFact=5; // Find factorial of this number
+int i=1;
+void findFactorial(){
+       do{
+          fact_value=fact_value*i;
+          i++;
+       }
+       while(i<=findFact);          
+System.out.println("Factorial of a using For Loop is: "+fact_value);
+}
+}
+// Main Class
+class MyFactorialExample{
+	public static void main(String...s){
+	FactorialPractice factObj=new FactorialPractice();
+	factObj.findFactorial();
+	}
+}
