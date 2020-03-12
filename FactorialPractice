@@ -18,4 +18,4 @@ class MyFactorialExample{
 	FactorialPractice factObj=new FactorialPractice();
 	factObj.findFactorial();
 	}
-}
+
