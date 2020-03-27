@@ -1,0 +1,15 @@
+import java.util.*;
+import java.text.DecimalFormat;
+public class Conver
+{
+	public static void main(String args[])
+	{
+		System.out.println("mph|kmph");
+		for(double mph=10;mph<120;mph=mph+10)
+		{
+			double result=mph*1.60934;
+			result=Double.parseDouble(new DecimalFormat("##.##").format(result));
+			System.out.println(+mph+"|"+result);
+		}
+	}
+}
