@@ -1,0 +1,15 @@
+import java.util.*;
+import java.text.DecimalFormat;
+public class KmphToMph
+{
+	public static void main(String args[])
+	{
+		System.out.println("kmph|mph");
+		for(double kmph=10;kmph<120;kmph=kmph+10)
+		{
+			double result=kmph*0.621371;
+			result=Double.parseDouble(new DecimalFormat("##.##").format(result));
+			System.out.println(+kmph+"|"+result);
+		}
+	}
+}
